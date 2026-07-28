@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Read|Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/guard-file-annotations.py\"",
+            "statusMessage": "Loading file annotations..."
+          }
+        ]
+      }
+    ]
+  }
+}

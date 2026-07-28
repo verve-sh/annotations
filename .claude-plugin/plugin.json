@@ -1,0 +1,9 @@
+{
+  "name": "annotations",
+  "version": "0.1.0",
+  "description": "Per-file and glob-pattern context annotations injected via PreToolUse hook — keeps file-specific gotchas visible when an agent touches the relevant file.",
+  "author": {
+    "name": "verve-sh",
+    "url": "https://github.com/verve-sh/annotations"
+  }
+}
